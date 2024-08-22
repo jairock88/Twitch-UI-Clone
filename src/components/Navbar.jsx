@@ -1,6 +1,6 @@
 export default function Navbar() {
     return (
-      <div className="fixed top-0 left-0 w-full h-12 flex items-center bg-zinc-900 shadow-[0_1px_2px_2px_rgba(0,0,0,0.5)] z-10">
+      <div className="sticky top-0 left-0 w-full h-12 flex items-center bg-zinc-900 shadow-[0_1px_2px_2px_rgba(0,0,0,0.5)] z-10">
         {/* Logo & Links */}
         <div className="flex items-center gap-6 px-4">
           <img
@@ -23,7 +23,7 @@ export default function Navbar() {
   
         {/* Search bar */}
         <div className="flex-grow flex justify-center">
-          <div className="hidden lg:flex relative flex items-center w-96">
+          <div className="lg:flex relative flex items-center w-96">
             <input
               type="text"
               placeholder="Buscar"
@@ -54,4 +54,3 @@ export default function Navbar() {
       </div>
     );
   }
-  

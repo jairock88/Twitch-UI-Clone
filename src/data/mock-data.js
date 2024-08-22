@@ -20,7 +20,7 @@ export const rec_channels = [
     {
       id: 3,
       avatar: 'https://static-cdn.jtvnw.net/jtv_user_pictures/7f45ecaa-c6c1-4cff-bbb0-83613459fffe-profile_image-70x70.png',
-      username: 'robpapersheet',
+      username: 'rob',
       game_name: 'Solo chateando',
       viewers: '10.5K', 
       estate: 'Desconectado',

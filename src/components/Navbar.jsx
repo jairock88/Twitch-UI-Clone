@@ -4,7 +4,7 @@ export default function Navbar() {
         {/* Logo & Links */}
         <div className="flex items-center gap-6 px-4">
           <img
-            className="w-7 h-7 cursor-pointer"
+            className="w-7 h-7 cursor-pointer transition-transform duration-200 hover:translate-x-1 hover:-translate-y-1"
             src="https://static.twitchcdn.net/assets/favicon-32-e29e246c157142c94346.png"
             alt="Twitch Logo"
           />
@@ -42,7 +42,7 @@ export default function Navbar() {
           <a href="#" className="hidden xl:flex text-white hover:text-purple-400">Twitch Prime</a>
           <img className= "w-10 cursor-pointer" src="https://gogmodteam.github.io/index_files/crown_animation_loop.gif" alt="Twitch Prime" />
         
-          <button className="hidden xl:flex bg-purple-600 text-white px-4 py-1 rounded-md hover:bg-purple-700">
+          <button className="hidden xl:flex bg-zinc-800 text-white px-4 py-1 rounded-md hover:bg-[#1f1f23]">
             Disfruta gratis sin anuncios
           </button>
           <img

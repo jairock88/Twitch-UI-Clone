@@ -15,9 +15,10 @@ export default function Browse() {
             {/* Tabs */}
             <div className="grid grid-cols-2 gap-2 md:grid-cols-4 lg:grid-cols-5 mb-6 mr-4">
                 {browse.map((category, index) => (
-                    <div key={index} className="flex items-center px-4 py-2 rounded-md bg-[#5c16c5] hover:bg-[#5a2e9b] cursor-pointer w-43 h-12">
-                        <img className="mr-2" src={category.icon} alt={category.name} />
+                    <div key={index} className="flex items-center px-4 py-2 rounded-md bg-[#5c16c5] hover:bg-[#5a2e9b] cursor-pointer w-43 h-12 justify-between">
                         <span className='font-bold text-[1.3rem]'>{category.name}</span>
+                        <img className="mr-2" src={category.icon} alt={category.name} />
+                        
                     </div>
                 ))}
             </div>

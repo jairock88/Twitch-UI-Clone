@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import SideMenu from "./components/SideMenu";
 import LiveChannels from "./components/LiveChannels";
 import Browse from "./components/Browse";
+import BrowseCategories from "./components/BrowseCategories";
 
 export default function App() {
   return (
@@ -11,7 +12,9 @@ export default function App() {
         <SideMenu />
         <div className="flex flex-col w-full">
           <Browse />
+          <BrowseCategories />
           <LiveChannels />
+          
         </div>
       </div>
     </div>

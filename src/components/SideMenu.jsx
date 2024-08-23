@@ -11,7 +11,7 @@ export default function SideMenu() {
     const displayedTopChannels = showAllTopChannels ? top_channels : top_channels.slice(0, 5);
 
     return (
-        <div className="sticky top-[48px] w-14 sm:w-16 xl:w-[15rem] h-screen bg-[#1f1f23] overflow-auto">
+        <div className="sticky top-[42px] w-14 sm:w-16 xl:w-[15rem] h-screen bg-[#1f1f23]">
             {/* Canales Que Sigues */}
             <div className="flex items-center justify-between p-2">
                 <p className="hidden xl:flex font-bold text-xs text-white">CANALES QUE SIGUES</p>
